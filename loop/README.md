@@ -22,3 +22,11 @@ counter value is 623344399
 counter value is 623346289
 counter value is 623389285
 counter value is 623373351
+
+When ran for a millisecond - 872,020
+
+When ran for about a microsecond - 239,021
+
+Also take a look at the attached CPU utlization.. and it makes sense.. there are 2 cores, and when I run one of the programs.. it take 1 core completely...
+
+now lets try to run 2 programms in parallel...
