@@ -17,7 +17,7 @@ void sig_handler(int signo)
 int main(){
   for(; 1 == 1; counter++) {
       if (counter % 10000 == 0) {
-        printf("Running things, counter's is %d", counter);
+        printf("Running things, counter's is %d \n", counter);
       }
   }
   printf("the value of counter is %d", counter);
