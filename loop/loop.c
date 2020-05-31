@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
 #include<signal.h>
 #include<unistd.h>
 
@@ -16,7 +16,9 @@ void sig_handler(int signo)
 
 int main(){
   for(; 1 == 1; counter++) {
-
+      if (counter % 10000 == 0) {
+        printf("Running things, counter's is %d", counter);
+      }
   }
   printf("the value of counter is %d", counter);
 }
