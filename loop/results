@@ -1,0 +1,231 @@
+le_2; done;
+++ echo 'Should be run from the loop directory'
+Should be run from the loop directory
+++ echo 'First argument should be number of microseconds to sleep'
+First argument should be number of microseconds to sleep
+++ TIME_TO_SLEEP=1000
+++ gcc loop.c -o loop
+loop.c: In function 'sig_handler':
+loop.c:11:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+     exit(0);
+     ^~~~
+loop.c:11:5: warning: incompatible implicit declaration of built-in function 'exit'
+loop.c:11:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+++ export APP_PID_1=12676
+++ APP_PID_1=12676
+++ ./loop
+++ export APP_PID_2=12677
+++ APP_PID_2=12677
+++ usleep 1000
+++ ./loop
+++ kill -SIGINT 12677
+++ kill -SIGINT 12676
+received SIGINT
+counter value is 12861766received SIGINT
+counter value is 11957645++ echo 'Should be run from the loop directory'
+Should be run from the loop directory
+++ echo 'First argument should be number of microseconds to sleep'
+First argument should be number of microseconds to sleep
+++ TIME_TO_SLEEP=1000
+++ gcc loop.c -o loop
+loop.c: In function 'sig_handler':
+loop.c:11:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+     exit(0);
+     ^~~~
+loop.c:11:5: warning: incompatible implicit declaration of built-in function 'exit'
+loop.c:11:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+++ export APP_PID_1=12689
+++ APP_PID_1=12689
+++ ./loop
+++ export APP_PID_2=12690
+++ APP_PID_2=12690
+++ usleep 1000
+++ ./loop
+++ kill -SIGINT 12690
+++ kill -SIGINT 12689
+received SIGINT
+counter value is 11509029received SIGINT
+counter value is 10714570++ echo 'Should be run from the loop directory'
+Should be run from the loop directory
+++ echo 'First argument should be number of microseconds to sleep'
+First argument should be number of microseconds to sleep
+++ TIME_TO_SLEEP=1000
+++ gcc loop.c -o loop
+loop.c: In function 'sig_handler':
+loop.c:11:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+     exit(0);
+     ^~~~
+loop.c:11:5: warning: incompatible implicit declaration of built-in function 'exit'
+loop.c:11:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+++ export APP_PID_1=12702
+++ APP_PID_1=12702
+++ ./loop
+++ export APP_PID_2=12703
+++ APP_PID_2=12703
+++ usleep 1000
+++ ./loop
+++ kill -SIGINT 12703
+received SIGINT
+counter value is 8773658++ echo 'Should be run from the loop directory'
+Should be run from the loop directory
+++ echo 'First argument should be number of microseconds to sleep'
+First argument should be number of microseconds to sleep
+++ TIME_TO_SLEEP=1000
+++ gcc loop.c -o loop
+++ kill -SIGINT 12702
+loop.c: In function 'sig_handler':
+loop.c:11:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+     exit(0);
+     ^~~~
+loop.c:11:5: warning: incompatible implicit declaration of built-in function 'exit'
+loop.c:11:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+++ export APP_PID_1=12715
+++ APP_PID_1=12715
+++ ./loop
+++ export APP_PID_2=12716
+++ APP_PID_2=12716
+++ usleep 1000
+++ ./loop
+++ kill -SIGINT 12716
+++ kill -SIGINT 12715
+received SIGINT
+counter value is 10881037received SIGINT
+counter value is 10151998++ echo 'Should be run from the loop directory'
+Should be run from the loop directory
+++ echo 'First argument should be number of microseconds to sleep'
+First argument should be number of microseconds to sleep
+++ TIME_TO_SLEEP=1000
+++ gcc loop.c -o loop
+loop.c: In function 'sig_handler':
+loop.c:11:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+     exit(0);
+     ^~~~
+loop.c:11:5: warning: incompatible implicit declaration of built-in function 'exit'
+loop.c:11:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+++ export APP_PID_1=12728
+++ APP_PID_1=12728
+++ ./loop
+++ export APP_PID_2=12729
+++ APP_PID_2=12729
+++ usleep 1000
+++ ./loop
+++ kill -SIGINT 12729
+++ kill -SIGINT 12728
+received SIGINT
+counter value is 9570243received SIGINT
+counter value is 8672107++ echo 'Should be run from the loop directory'
+Should be run from the loop directory
+++ echo 'First argument should be number of microseconds to sleep'
+First argument should be number of microseconds to sleep
+++ TIME_TO_SLEEP=1000
+++ gcc loop.c -o loop
+loop.c: In function 'sig_handler':
+loop.c:11:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+     exit(0);
+     ^~~~
+loop.c:11:5: warning: incompatible implicit declaration of built-in function 'exit'
+loop.c:11:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+++ export APP_PID_1=12741
+++ APP_PID_1=12741
+++ ./loop
+++ export APP_PID_2=12742
+++ APP_PID_2=12742
+++ usleep 1000
+++ ./loop
+++ kill -SIGINT 12742
+++ kill -SIGINT 12741
+received SIGINT
+counter value is 9864008received SIGINT
+counter value is 8988498++ echo 'Should be run from the loop directory'
+Should be run from the loop directory
+++ echo 'First argument should be number of microseconds to sleep'
+First argument should be number of microseconds to sleep
+++ TIME_TO_SLEEP=1000
+++ gcc loop.c -o loop
+loop.c: In function 'sig_handler':
+loop.c:11:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+     exit(0);
+     ^~~~
+loop.c:11:5: warning: incompatible implicit declaration of built-in function 'exit'
+loop.c:11:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+++ export APP_PID_1=12754
+++ APP_PID_1=12754
+++ ./loop
+++ export APP_PID_2=12755
+++ APP_PID_2=12755
+++ usleep 1000
+++ ./loop
+++ kill -SIGINT 12755
+++ kill -SIGINT 12754
+received SIGINT
+counter value is 11577789received SIGINT
+counter value is 10876463++ echo 'Should be run from the loop directory'
+Should be run from the loop directory
+++ echo 'First argument should be number of microseconds to sleep'
+First argument should be number of microseconds to sleep
+++ TIME_TO_SLEEP=1000
+++ gcc loop.c -o loop
+loop.c: In function 'sig_handler':
+loop.c:11:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+     exit(0);
+     ^~~~
+loop.c:11:5: warning: incompatible implicit declaration of built-in function 'exit'
+loop.c:11:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+++ export APP_PID_1=12767
+++ APP_PID_1=12767
+++ ./loop
+++ export APP_PID_2=12768
+++ APP_PID_2=12768
+++ usleep 1000
+++ ./loop
+++ kill -SIGINT 12768
+++ kill -SIGINT 12767
+received SIGINT
+counter value is 9670352received SIGINT
+counter value is 8905441++ echo 'Should be run from the loop directory'
+Should be run from the loop directory
+++ echo 'First argument should be number of microseconds to sleep'
+First argument should be number of microseconds to sleep
+++ TIME_TO_SLEEP=1000
+++ gcc loop.c -o loop
+loop.c: In function 'sig_handler':
+loop.c:11:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+     exit(0);
+     ^~~~
+loop.c:11:5: warning: incompatible implicit declaration of built-in function 'exit'
+loop.c:11:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+++ export APP_PID_1=12780
+++ APP_PID_1=12780
+++ ./loop
+++ export APP_PID_2=12781
+++ APP_PID_2=12781
+++ usleep 1000
+++ ./loop
+++ kill -SIGINT 12781
+++ kill -SIGINT 12780
+received SIGINT
+counter value is 11963648received SIGINT
+counter value is 11173540++ echo 'Should be run from the loop directory'
+Should be run from the loop directory
+++ echo 'First argument should be number of microseconds to sleep'
+First argument should be number of microseconds to sleep
+++ TIME_TO_SLEEP=1000
+++ gcc loop.c -o loop
+loop.c: In function 'sig_handler':
+loop.c:11:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+     exit(0);
+     ^~~~
+loop.c:11:5: warning: incompatible implicit declaration of built-in function 'exit'
+loop.c:11:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+++ export APP_PID_1=12793
+++ APP_PID_1=12793
+++ ./loop
+++ export APP_PID_2=12794
+++ APP_PID_2=12794
+++ usleep 1000
+++ ./loop
+++ kill -SIGINT 12794
+++ kill -SIGINT 12793
+received SIGINT
+counter value is 11918262received SIGINT
+counter value is 11276265
