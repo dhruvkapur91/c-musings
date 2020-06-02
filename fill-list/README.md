@@ -1,0 +1,7 @@
+So something is horribly wrong... :P
+
+The fill.cpp ran for about close to 20 minutes and was able to get 114,649,707 elements in memory before it threw up... That should be close to 3.6 GB of data...
+
+What is weird is that it took so long... I wonder if that had to do something with print statement... lets get rid of that...
+
+Or could it be, push_back? will try push_front later too... or too many malloc calls, will strace help me see that?
