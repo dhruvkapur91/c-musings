@@ -17,7 +17,7 @@ int main()
 
     usleep(1000*5000); // Sleep for few seconds so that I can instrument things...
 
-    cout << "Starting now \n"
+    cout << "Starting now \n";
 
     unsigned long counter = 0;
     list <long> someList;
