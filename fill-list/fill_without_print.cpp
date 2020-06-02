@@ -15,6 +15,10 @@ int main()
     printf("Process ID: %d\n",p_id);
     printf("Parent Process ID: %d\n",p_pid);
 
+    usleep(1000*5000); // Sleep for few seconds so that I can instrument things...
+
+    cout << "Starting now \n"
+
     unsigned long counter = 0;
     list <long> someList;
     while(true) {
